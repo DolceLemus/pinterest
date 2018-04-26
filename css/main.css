@@ -1,0 +1,62 @@
+header {
+    border: 1px solid black;
+}
+
+html, body {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: 'Baloo Da', cursive;
+}
+
+header>* {
+    display: inline-block;
+}
+
+header>h1 {
+    border: 1px solid black;
+    width: 3%;
+    height: 3%;
+    font-size: 50px;
+}
+
+header>form {
+    border: 1px solid black;
+    width: 65%;
+}
+
+header>navbar {
+    border: 1px solid black;
+    width: 22%;
+}
+
+h1 {
+    color: rgb(164, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+
+.col {
+    float: left;
+    width: 19%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: .3%;
+}
+
+img {
+    width: 100%;
+    hight: auto;
+    border-radius: 6%;
+}
+
+#search-input {
+    background-color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 3px;
+    width: 70%;
+    height: 3em;
+}
+
+.box-lupa {
+    font-size: 35px;
+}
