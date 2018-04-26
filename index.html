@@ -14,36 +14,54 @@
 
 <body>
     <header>
-        <h1>
+        <div class="contenedor-logo-pinterest">
+            <h1>
             <!-- buscar icono en fontawesome para Pinterest https://fontawesome.com-->
             <i class="fa fa-pinterest"></i>
         </h1>
+        </div>
         <form>
             <div class="box-input">
                 <div class="box-lupa">
-                    <!--etiqueta lado izquierdo -->
-                    <i class="fa fa-search"></i>
-                    <!--box de entrada-->
-                    <input placeholder="  Search" type="text" id="search-input">
+                    <div class="contenedor-box-lupa">
+                        <!--etiqueta lado izquierdo -->
+                        <label for="search-input">
+                        <i class="fa fa-search"></i>
+                        </label>
+                    </div>
+                    <div class="contenerdor-box-input">
+                        <!--box de entrada-->
+                        <input placeholder="  Search" type="text" id="search-input">
+                    </div>
                 </div>
-
-
-
             </div>
-            <select name="" id="">
+            <!-- <select name="" id="">
                 <option value="">Todos los pines</option>
                 <option value="">People</option>
                 <option value="">Tus pines</option>
                 <option value="">Tableros</option>
-            </select>
+            </select> -->
         </form>
         <navbar>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Following</a>
-                <a href="#">Explore</a>
-                <a href="#">Dulce</a>
-
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#">Home</a>
+                </div>
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#">Following</a>
+                </div>
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#">Explore</a>
+                </div>
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#">Dulce</a>
+                </div>
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#"><i class="fa fa-commenting-o"></i></a>
+                </div>
+                <div class="contenedor-links-bar">
+                    <a class="links-bar" href="#"><i class="fa fa-ellipsis-h"></i></a>
+                </div>
             </nav>
         </navbar>
     </header>

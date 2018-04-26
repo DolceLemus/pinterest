@@ -1,11 +1,14 @@
 header {
     border: 1px solid black;
+    height: 5em;
+
 }
 
 html, body {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-family: 'Baloo Da', cursive;
+    top: 5em;
 }
 
 header>* {
@@ -16,7 +19,7 @@ header>h1 {
     border: 1px solid black;
     width: 3%;
     height: 3%;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 header>form {
@@ -26,7 +29,8 @@ header>form {
 
 header>navbar {
     border: 1px solid black;
-    width: 22%;
+    width: 30%;
+    height: 70%;
 }
 
 h1 {
@@ -50,7 +54,7 @@ img {
 }
 
 #search-input {
-    background-color: rgb(195, 195, 195);
+    background-color:rgb(209, 209, 209);
     border: none;
     border-radius: 3px;
     width: 70%;
@@ -58,5 +62,38 @@ img {
 }
 
 .box-lupa {
-    font-size: 35px;
+    font-size: 20px;
+}
+.contenedor-box-lupa{
+    float: left;
+    width: 5%;
+    text-align: center;
+    top:40%;
+}
+.links-bar{
+    text-decoration: none;
+    color:rgb(209, 209, 209);
+    text-align: center;
+}
+
+.contenedor-links-bar{
+    float: left;
+    padding-right: 4%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15%;
+
+}
+.contenedor-links-bar:hover{
+    top: 10%;
+    bottom:10%;
+    height: 80%;
+    background-color: rgb(235, 235, 235);
+}
+.contenedor-logo-pinterest{
+    width: 3%;
+    height: 1em;
+}
+img:hover{
+    opacity: inherit;
 }
