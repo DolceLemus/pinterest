@@ -1,99 +1,142 @@
 header {
-    border: 1px solid black;
-    height: 5em;
-
+    /* border: 1px solid black; */
+    height: 4em;
 }
 
 html, body {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-family: 'Baloo Da', cursive;
-    top: 5em;
+    top: 4em;
 }
 
 header>* {
     display: inline-block;
+    position: relative;
 }
 
 header>h1 {
-    border: 1px solid black;
-    width: 3%;
-    height: 3%;
+    /* border: 1px solid black; */
+    width: 2.5%;
+    height: 2.5%;
     font-size: 40px;
 }
 
 header>form {
-    border: 1px solid black;
-    width: 65%;
+    /* border: 1px solid black; */
+    width: 57%;
+    bottom:55%;
 }
 
 header>navbar {
-    border: 1px solid black;
-    width: 30%;
+    /* border: 1px solid black; */
+    width: 38%;
     height: 70%;
+    left: 0;
+    bottom: 26%;
 }
 
 h1 {
     color: rgb(164, 0, 0);
     width: 100px;
     height: 100px;
-}
-
-.col {
-    float: left;
-    width: 19%;
-    text-align: center;
-    /* border: 1px solid black; */
-    margin: .3%;
+    bottom: 40%;
+    padding-right: .5%;
 }
 
 img {
     width: 100%;
     hight: auto;
-    border-radius: 6%;
+    border-radius: 8px;
+    top: .3em;
+    position: relative;
 }
 
-#search-input {
-    background-color:rgb(209, 209, 209);
-    border: none;
-    border-radius: 3px;
-    width: 70%;
-    height: 3em;
+
+.col {
+    float: left;
+    width: 18%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: .8%;
+}
+
+.box-input {
+    background-color: rgb(209, 209, 209);
+    border-radius: 8px;
 }
 
 .box-lupa {
     font-size: 20px;
 }
-.contenedor-box-lupa{
+
+.contenedor-box-lupa {
     float: left;
-    width: 5%;
+    width: 4%;
     text-align: center;
-    top:40%;
+    background-color: rgb(209, 209, 209);
+    font-size: 25px;
+    border-radius: 8px;
+    color: rgb(130, 130, 130);
 }
-.links-bar{
+
+.links-bar {
     text-decoration: none;
-    color:rgb(209, 209, 209);
-    text-align: center;
-}
-
-.contenedor-links-bar{
+    color: rgb(209, 209, 209);
+    /* border: 1px solid b lack; */
     float: left;
-    padding-right: 4%;
-    border: 1px solid black;
     text-align: center;
-    border-radius: 15%;
-
+    border-radius: 25px;
+    height: 2.5em;
+    margin-left: .8em;
+    font-size: 16px;
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
 }
-.contenedor-links-bar:hover{
-    top: 10%;
-    bottom:10%;
-    height: 80%;
+
+.links-bar:hover {
     background-color: rgb(235, 235, 235);
 }
-.contenedor-logo-pinterest{
-    width: 3%;
-    height: 1em;
+
+.source {
+    bottom: 12%;
+    padding-left: 5%;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    /* border: 1px solid black; */
+    left: 1%;
 }
-img:hover{
-    opacity: inherit;
+
+.pin:hover {
+    transform: scale(0.96);
+    background: rgb(232, 231, 231);
+    border-radius: 8px;
+    -webkit-transform:scale(1.02);
+    margin: 0;
+    opacity: 0.7;
+}
+
+#search-input {
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 3px;
+    width: 95%;
+    height: 3em;
+    /* font-size: 25px; */
+    font-family: 'Baloo Da', cursive;
+    font-size: 14px;
+    color:color: rgb(88, 88, 88);
+}
+
+#logo {
+    font-size: 25px;
+    height: 45%;
+    border-radius: 60%;
+}
+
+#home{
+    color: rgb(88, 88, 88) ;
 }
